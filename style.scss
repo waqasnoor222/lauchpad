@@ -34,6 +34,9 @@ input {
             padding: 0px 9px;
             border-radius: 8px;
             margin-top: 20px;
+            option{
+                color: black;
+            }
         }
     }
 
@@ -1163,6 +1166,16 @@ footer {
     .model_main .model_body_two .login_left img {
         width: 312px;
     }
+
+    .checkout_main .checkout_details .coupen_row button {
+        padding: 7px;
+        right: 30px;
+        position: relative;
+    }
+
+    .payment_detail_main {
+        width: 40%;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -1172,6 +1185,13 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+    .order_complete_main .ticket_bg {
+        height: 862px;
+    }
+    .order_complete_main .left_titles {
+        justify-content: center;
+    }
+
     h2 {
         font-size: 24px;
     }
@@ -1223,11 +1243,19 @@ footer {
         margin: auto;
         padding: 30px 0px;
     }
+
     .model_main .model_body .cart_model_right .cart_wrap .price_row {
         margin: 0px 0;
     }
+
     .model_main .model_body .cart_model_right .cart_wrap textarea {
         height: 94px;
+    }
+    .payment_detail_main {
+        width: 60%;
+    }
+    .order_complete_main .top_details-row {
+        padding: 100px 40px;
     }
 }
 
@@ -1268,14 +1296,22 @@ footer {
     .model_main .model_body {
         width: 97%;
     }
+
     .cart_wrap {
         width: 93%;
         margin: auto;
         padding: 30px 9px;
     }
+
     .model_main .model_body .btn_row .add-cart-btn {
         width: 224px;
-    }    
+    }
+    .payment_detail_main {
+        width: 80%;
+    }
+    .order_complete_main .ticket_bg {
+        height: 732px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1308,18 +1344,23 @@ footer {
     .page_main .logo-box img {
         margin-top: 30px;
     }
+
     .model_main .model_body .cart_model_right .cart_wrap textarea {
         height: 64px;
         padding: 5px;
     }
+
     .cart_wrap {
         width: 100%;
         margin: auto;
         padding: 30px 9px;
     }
+
     .model_main .model_body .btn_row .add-cart-btn {
         width: 127px;
         font-size: 12px;
     }
-
+    .payment_detail_main {
+        width: 95%;
+    }
 }
